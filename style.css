@@ -1,0 +1,90 @@
+body {
+    background-color: lightblue;
+}
+
+.fieldset1 {
+    background-color: wheat;
+}
+
+.fieldset1 .legend1 {
+    background-color: red;
+}
+
+.fieldset2 {
+    background-color: wheat;
+}
+
+.fieldset2 .legend1 {
+    margin-right: 30px;
+}
+
+.fieldset3 {
+    background-color: lightgreen;
+}
+
+legend {
+    background-color: darkgreen;
+    border: solid 1px darkgreen;
+    color: white;
+}
+
+/* minden beviteli mezőre érvényes */
+input {
+    float: right;
+    margin: 10px;
+    margin-right: 300px;
+}
+
+/* csak az adott típusú bev.-i mezőre érvényes */
+input[type=submit]{
+    background-color: lightblue;
+}
+
+.submit {
+    margin-top: 10px;
+    float: right;
+}
+
+div {
+    text-align: center;
+}
+
+#placeholder {
+    float: left;
+}
+
+br {
+    clear: both;
+}
+
+.kotelezo_mezo label::after {
+    content: "*";
+    color: red;
+}
+
+.label1 {
+    display: block;
+    width: 70px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.dolgozat input {
+    width: 220px;
+    height: 22px;
+}
+
+.form-check1 {
+    margin-top: 10px;
+    float: left;
+}
+
+.form-check2 {
+    margin-top: 10px;
+    float: right;
+}
+
+.fhnev {
+    margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap dolgozat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset class="fieldset1">
+            <!-- kereten lévő szöveg -->
+            <legend>Dolgozat</legend>
+            <label for="fhnev" class="label1">felhasználónév</label>
+            <input type="text" id="fhnev" placeholder="betűvel kezdődik és végződik, közte 3-6 szám" name="fhnev" value="" size="40"><br>
+            <!-- label for és input egyezzen! -->
+            <label for="jelszo">jelszó </label>
+            <input type="text" id="jelszo" placeholder="min. 7 karakter, speciális karakterrel végződik" value="" size="40"><br>
+            <label for="email">e-mail cím</label>
+            <input type="email" id="email" placeholder="vmi@vmi.com" name="email"><br>
+        </fieldset><br>
+        <fieldset class="fieldset2">
+            <!-- kereten lévő szöveg -->
+            <legend class="legend1">Adatok</legend><br>
+            <fieldset class="fieldset3">
+                <legend class="legend2">Kedvencek</legend>
+                <div class="form-checks"></div>
+                <div class="form-check1">
+                    <input type="checkbox" name="info" id="film" value="film" class="checkbox">
+                    <label for="film">film</label><br>
+                    <input type="checkbox" name="info" id="videojatek" value="videojatek" class="checkbox">
+                    <label for="videojatek">videó-játékok</label><br>
+                    <input type="checkbox" name="info" id="olvasas" value="olvasas" class="checkbox">
+                    <label for="olvasas">olvasás</label><br>
+                    <input type="checkbox" name="info" id="seta" value="seta" class="checkbox">
+                    <label for="seta">séta</label><br>
+                </div>
+                <div class="form-check2">
+                    <input type="checkbox" name="info" id="csoport" value="csoport" class="checkbox">
+                    <label for="csoport">csoportmunka</label><br>
+                    <input type="checkbox" name="info" id="egyeni" value="egyeni" class="checkbox">
+                    <label for="egyeni">egyéni munka</label><br>
+                    <input type="checkbox" name="info" id="barmelyik" value="barmelyik" class="checkbox">
+                    <label for="barmelyik">bármelyik</label><br>
+                </div>
+            </fieldset><br>
+        </fieldset> 
+        <div class="submit">
+            <button type="submit" class="btn btn-primary mt-3">Küldés</button>
+        </div>
+    </form>
+</body>
+</html>
